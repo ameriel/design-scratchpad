@@ -1,0 +1,87 @@
+/* Responsive Styles */
+
+@media all and (max-width: 600px) {
+	#front #section-container {width: 100%;}
+	#front #section-container div {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	#front #section-container img {display: none;}
+}
+@media all and (min-width: 601px)  {
+	#front #section-container {width: 100%;}
+	#front #section-container div {width: 25%;}
+}
+@media all and (min-width: 900px) {
+	#front #section-container {width: 80%;}
+}
+
+/* All Screen Sizes */
+
+body {
+	color: #000;
+	background: #fff;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+#front header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#front header h1 {
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	margin-top: 65px;
+	margin-bottom: 10px;
+	font-size: 300%;
+	color: #402858;
+}
+#front header p {font-style: italic;}
+#front #section-container {
+	margin: auto;
+	color: #fff;
+	overflow: auto;
+}
+#front #section-container div {
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+}
+#front #sec1 {background: #A49097;}
+#front #sec2 {background: #604878;}
+#front #sec3 {background: #957BB7;}
+#front #sec4 {background: #806090;}
+#front #section-container img {
+	width: 100%;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#front #section-container h2 {
+	font-weight: bold;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#front #section-container p {
+	font-weight: normal;
+	text-align: left;
+	font-size: 90%;
+	margin: 0px;
+	padding: 5px;
+	display: none;
+}
+#front #section-container a {
+	color: #fff;
+	text-decoration: none;
+}
+#front footer {
+	width: 100%;
+	text-align: center;
+	color: #444;
+	font-size: 80%;
+	margin-top: 30px;
+	position: absolute;
+	bottom: 0px;
+	z-index: -1;
+	
+}
